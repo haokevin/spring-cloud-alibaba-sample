@@ -1,4 +1,4 @@
-package com.alibaba.cloud.dubboprovidersample.demo.sentinelprovider;
+package com.alibaba.cloud.dubboprovidersample.demo.sentinel;
 
 import com.alibaba.cloud.FooService;
 import org.apache.dubbo.config.annotation.DubboService;
