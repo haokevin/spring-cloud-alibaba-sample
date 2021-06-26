@@ -1,4 +1,4 @@
-package com.alibaba.cloud.dubboconsumersample;
+package com.alibaba.cloud.dubboconsumersample.demo.sentinel;
 
 import org.apache.dubbo.config.annotation.DubboReference;
 import org.springframework.web.bind.annotation.GetMapping;
