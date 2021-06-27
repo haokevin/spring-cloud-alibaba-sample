@@ -107,7 +107,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>${spring-boot.version}</version>
                 <configuration>
-                    <mainClass>com.alibaba.cloud.dubboprovidersample.DubboProviderSampleApplication</mainClass>
+                    <mainClass>com.alibaba.cloud.dubboconsumersample.DubboConsumerSampleApplication</mainClass>
                 </configuration>
                 <executions>
                     <execution>
