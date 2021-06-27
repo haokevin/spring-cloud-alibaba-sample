@@ -23,11 +23,4 @@ public class SentinelWebConfig {
             out.close();
         };
     }
-
-    public String bonjourFallback(Throwable t) {
-        if (BlockException.isBlockException(t)) {
-            return "Blocked by Sentinel: " + t.getClass().getSimpleName();
-        }
-        return "Oops, failed: " + t.getClass().getCanonicalName();
-    }
 }
