@@ -16,6 +16,9 @@
         <module>nacos-discovery-consumer-sample</module>
         <module>dubbo-sample-api</module>
         <module>nacos-config-sample</module>
+        <module>service-api</module>
+        <module>service-provider</module>
+        <module>web</module>
     </modules>
 
     <properties>
